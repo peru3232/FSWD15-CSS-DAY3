@@ -1,0 +1,148 @@
+body {
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-conainer {
+    /* max-width: 400px; */
+    width: 50%;
+    min-width: 300px;
+    margin: 0 auto;
+    border: black outset 2px;
+    padding: 8px;
+    display: flex;
+    flex-flow: column;
+    position: relative;
+    top: 10vh
+}
+
+#head {
+    line-height: 1;
+    font-stretch: extra-expanded;
+    margin-bottom: 0px;
+    min-width: 283px;
+}
+
+#head h1 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    line-height: 0.7;
+}
+
+.table-header {
+    font-size: small;
+    flex-flow: row;
+    display: flex;
+
+}
+
+.table-row-st, .table-row-ma {
+    flex-flow: row;
+    display: flex;
+}
+
+div {
+    /* border: rgb(244, 248, 5) outset 1px;   */
+}
+
+.flexItems {
+    display: flex;
+    align-items: flex-end;
+}
+
+.col1 {
+    width: 180px;
+}
+
+.col2 {
+    flex-grow: 1;
+    justify-content: right;
+    text-align: right;
+}
+.col3 {
+    width: 55px;
+    justify-content: right;
+    text-align: right;
+}
+
+.s-col1 {
+    width: 150px;
+    min-width: 110px;
+
+}
+.s-col2 {
+    /* width: 100px;  */
+    flex-grow: 1;
+    justify-content: left;
+    text-align: left;
+    min-width: 70px;
+}
+
+.s-col3 {
+    width: 70px; 
+    min-width: 53px;
+
+}
+.table-row-ma .col1 {
+    margin-left: 15px;
+    width: 165px;
+}
+.table-row-ma .s-col1 {
+    margin-left: 10px;
+    width: 140px;
+    min-width: 100px;
+
+}
+.summary {
+    display: flex;
+    width: 66%;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.summary div {
+    line-height: 0.9;
+}
+
+.border2 {
+    border-top: solid black 2px;
+}
+.border1 {
+    border-top: solid black 1px;
+}
+.border3 {
+    border-top: solid black 6px;
+}
+.border4 {
+    border-top: solid black 12px;
+}
+
+p {
+    margin-bottom: 0px;
+}
+
+hr {
+    border: solid black 1px;
+}
+
+.common-content {
+    font-size: 13px;
+}
+
+a:link {
+    color: #2338b3;
+    text-decoration: none;
+}
+a:visited {
+    color: #058f11;
+    text-decoration: none;
+}
+a:hover {
+    color: #15bfdd;
+    text-decoration: none;
+}
+a:active {
+    color: #B300B3;
+    text-decoration: underline;
+}
