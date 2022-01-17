@@ -4,7 +4,6 @@ body {
 }
 
 #main-conainer {
-    /* max-width: 400px; */
     width: 50%;
     min-width: 300px;
     margin: 0 auto;
@@ -41,10 +40,6 @@ body {
     display: flex;
 }
 
-div {
-    /* border: rgb(244, 248, 5) outset 1px;   */
-}
-
 .flexItems {
     display: flex;
     align-items: flex-end;
@@ -71,7 +66,6 @@ div {
 
 }
 .s-col2 {
-    /* width: 100px;  */
     flex-grow: 1;
     justify-content: left;
     text-align: left;
@@ -100,7 +94,6 @@ div {
     text-align: center;
     justify-content: space-between;
 }
-
 .summary div {
     line-height: 0.9;
 }
@@ -128,21 +121,4 @@ hr {
 
 .common-content {
     font-size: 13px;
-}
-
-a:link {
-    color: #2338b3;
-    text-decoration: none;
-}
-a:visited {
-    color: #058f11;
-    text-decoration: none;
-}
-a:hover {
-    color: #15bfdd;
-    text-decoration: none;
-}
-a:active {
-    color: #B300B3;
-    text-decoration: underline;
 }
